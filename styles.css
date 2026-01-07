@@ -67,3 +67,11 @@ h1 {
   background: #c8f7c5;
   text-decoration: line-through;
 }
+
+.sct {
+  display: block;
+  font-size: 12px;
+  color: #a0005c;
+  margin-top: 4px;
+}
+
