@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: #fafafa;
+  background: #fff5fb;
   padding: 20px;
 }
 
@@ -9,34 +9,61 @@ h1 {
   color: #b0006d;
 }
 
+.controles {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.controles button {
+  background: #ffb6d9;
+  border: none;
+  padding: 8px 12px;
+  margin: 4px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
 .malla {
   display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
   justify-content: center;
 }
 
 .anio {
-  display: flex;
-  gap: 20px;
+  background: #ffe3f1;
+  padding: 15px;
+  border-radius: 15px;
 }
 
 .semestre {
-  background: #ffe3f1;
-  padding: 15px;
+  background: #ffd1ea;
+  padding: 10px;
   border-radius: 12px;
+  margin-bottom: 10px;
   width: 200px;
 }
 
 .semestre h3 {
   text-align: center;
-  color: #b0006d;
+  color: #a0005c;
 }
 
 .ramo {
   background: white;
-  padding: 8px;
   margin: 6px 0;
+  padding: 6px;
   border-radius: 8px;
   text-align: center;
-  font-size: 14px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.ramo:hover {
+  background: #ffe0f0;
+}
+
+.ramo.aprobado {
+  background: #c8f7c5;
+  text-decoration: line-through;
 }
